@@ -1,21 +1,27 @@
+:root {
+  --color-primary: #2a2b3c;
+  --color-primary-light: #eee;
+  --color-headings: #1b0760;
+}
+
 @media (prefers-color-scheme: dark) {
   body {
     color: #eee;
-    background: #121212;
+    background: var(--color-primary);
   }
 
-  a {
-    color: #809fff;
+  b {
+    color: #eee;
   }
 }
 
 @media (prefers-color-scheme: light) {
   body {
     color: #121212;
-    background: #eee;
+    background: var(--color-primary-light);
   }
 
-  a {
-    color: #809fff;
+  b {
+    color: #121212;
   }
 }
