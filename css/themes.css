@@ -1,7 +1,7 @@
 :root {
   --color-primary: #2a2b3c;
   --color-primary-light: #eee;
-  
+
   --color-heading-dark: #eee;
   --color-heading-light: #121212;
 }
@@ -19,7 +19,7 @@
   h1,
   h2,
   h3 {
-    color: var(--color-heading-light)
+    color: var(--color-heading-light);
   }
 }
 
@@ -36,6 +36,6 @@
   h1,
   h2,
   h3 {
-  color: var(--color-heading-dark);
+    color: var(--color-heading-dark);
   }
 }
