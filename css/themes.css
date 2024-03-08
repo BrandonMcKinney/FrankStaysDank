@@ -1,7 +1,9 @@
 :root {
   --color-primary: #2a2b3c;
   --color-primary-light: #eee;
-  --color-headings: #1b0760;
+  
+  --color-heading-dark: #eee;
+  --color-heading-light: #121212;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -13,6 +15,12 @@
   b {
     color: #eee;
   }
+
+  h1,
+  h2,
+  h3 {
+    color: var(--color-heading-light)
+  }
 }
 
 @media (prefers-color-scheme: light) {
@@ -23,5 +31,11 @@
 
   b {
     color: #121212;
+  }
+
+  h1,
+  h2,
+  h3 {
+  color: var(--color-heading-dark);
   }
 }
