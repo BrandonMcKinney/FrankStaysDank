@@ -4,8 +4,57 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/normalize.css" />
-    <link rel="stylesheet" href="css/styles.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="css/themes.css" />
+    <link rel="stylesheet" href="css/status.css" />
+    <title>FrankStaysDank</title>
   </head>
-  <body></body>
+  <body>
+    <header>
+      <nav class="nav-collapsable">
+        <a aria-label="FrankStaysDank" class="nav-brand" href="/">
+          <img
+            src="img/weed-leaf.png"
+            alt=""
+            style="height: 30px; width: 30px"
+          />
+        </a>
+      </nav>
+    </header>
+    <section class="block block--dark hero">
+      <div class="container grid grid--1x2">
+        <header class="block__header her__content">
+          <h1 data-aos="zoom-in-up" class="block__heading">FrankStaysDank</h1>
+          <p data-aos="zoom-in-up" class="her__tagline">
+            Welcome to my website!
+          </p>
+        </header>
+      </div>
+    </section>
+    <section class="block block--dark block-showcase">
+      <header class="block__header">
+        <h2 data-aos="fade-down">Status</h2>
+      </header>
+      <ul class="list" data-aos="fade-up">
+        <section
+          data-aos="fade-in"
+          data-aos-duration="2000"
+          class="aos-init aos-animate"
+        >
+          <div class="statusIconContainer"></div>
+          <div class="statusContainer">
+            <center>Applications</center>
+            <div class="development itemStatus">
+              <b>Frank's GTAV Lua</b>
+            </div>
+          </div>
+          <div class="statusContainer">
+            <center>Bots</center>
+            <div class="online itemStatus">
+              <b>Spartan</b>
+            </div>
+          </div>
+        </section>
+      </ul>
+    </section>
+  </body>
 </html>
