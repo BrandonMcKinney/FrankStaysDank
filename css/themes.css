@@ -1,7 +1,11 @@
 :root {
   --color-primary: #2a2b3c;
   --color-primary-light: #eee;
+<<<<<<< HEAD
 
+=======
+  
+>>>>>>> ffc9cc9 (Merge acceptance)
   --color-heading-dark: #eee;
   --color-heading-light: #121212;
 }
@@ -19,7 +23,11 @@
   h1,
   h2,
   h3 {
+<<<<<<< HEAD
     color: var(--color-heading-light);
+=======
+    color: var(--color-heading-light)
+>>>>>>> ffc9cc9 (Merge acceptance)
   }
 }
 
@@ -36,6 +44,10 @@
   h1,
   h2,
   h3 {
+<<<<<<< HEAD
     color: var(--color-heading-dark);
+=======
+  color: var(--color-heading-dark);
+>>>>>>> ffc9cc9 (Merge acceptance)
   }
 }
